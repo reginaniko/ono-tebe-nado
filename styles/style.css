@@ -144,13 +144,11 @@
 .lots {
     width: 100%;
     position: relative;
-    padding-left: 50px;
-    padding-right: 50px;
     padding-top: 180px;
 }
 
 .lots__heading {
-    padding-left: 40px;
+    padding-left: 90px;
     padding-bottom: 27px;
     color: #000;
     font-size: 40px;
@@ -181,7 +179,6 @@
     height: 100%;
     max-width: 430px;
     min-height: 450px;
-    padding: 50px 40px;
 }
 
 
@@ -207,6 +204,8 @@
 }
 
 .card__title {
+    position: relative;
+    padding: 50px 40px 0 40px;
     color: #FFF;
     font-size: 22px;
     font-weight: 700;
@@ -219,10 +218,11 @@
 }
 
 .card__text {
+    padding: 0 40px 50px 40px;
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 120%;
     z-index: 2;
 }
 
@@ -238,7 +238,7 @@
 
 .lots__look-more-link {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 90px;
     margin-top: 30px;
     border-bottom: 1px solid black;
     font-size: 20px;
